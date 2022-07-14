@@ -20,7 +20,7 @@ namespace Model.EF
 
         public DateTime NGAYGUI { get; set; }
 
-        public int TRANGTHAI { get; set; }
+        public string TRANGTHAI { get; set; }
 
         public bool? DAXOA { get; set; }
 

@@ -144,11 +144,13 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HoaDonPhongController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LichSuController.cs" />
     <Compile Include="Controllers\LoginPhongController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginPhongModel.cs" />
+    <Compile Include="Models\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +206,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\LoginPhong\Index.cshtml" />
+    <Content Include="Views\LichSu\Create.cshtml" />
+    <Content Include="Views\LichSu\Delete.cshtml" />
+    <Content Include="Views\LichSu\Details.cshtml" />
+    <Content Include="Views\LichSu\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -18,7 +18,7 @@ namespace QLKyTucXa.Areas.CanBo.Controllers
         }
 
         [HttpPost]
-        public JsonResult ThemMoi(int idDp, string maPhong, string taiKhoan, string matKhau, int soLuongnv, double donGia, int tinhTrang, bool trangThai)
+        public JsonResult ThemMoi(int idDp, string maPhong, string taiKhoan, string matKhau, int soLuongnv, double donGia, int tinhTrang, int trangThai)
         {
             try
             {
@@ -47,7 +47,7 @@ namespace QLKyTucXa.Areas.CanBo.Controllers
         }
 
         [HttpPost]
-        public JsonResult CapNhat(int id, int soLuongnv, double donGia, int tinhTrang, bool trangThai) //, int idDp, string maPhong, string taiKhoan, string matKhau
+        public JsonResult CapNhat(int id, int soLuongnv, double donGia, int tinhTrang, int trangThai) //, int idDp, string maPhong, string taiKhoan, string matKhau
         {
             try
             {

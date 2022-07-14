@@ -42,7 +42,7 @@ namespace Model.EF
 
         public int TINHTRANG { get; set; }
 
-        public bool TRANGTHAI { get; set; }
+        public int TRANGTHAI { get; set; }
 
         [StringLength(80)]
         public string MOTAKHAC { get; set; }

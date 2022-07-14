@@ -64,6 +64,7 @@
     <Compile Include="EF\PHONG.cs" />
     <Compile Include="EF\QLKyTucXaDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
